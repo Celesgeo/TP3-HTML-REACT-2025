@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta id="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 1</title>
+  </head>
+  <body>
+    <h2>Calculadora</h2>
+
+    <form>
+      <label>Numero 1: </label>
+      <input id="numero1" type="number" />
+
+      <br />
+
+      <label>Numero 2:</label>
+      <input id="numero2" type="number" />
+
+      <br />
+
+      <label>Operación: </label>
+      <select id="operacion">
+        <option value="suma">Suma</option>
+        <option value="resta">Resta</option>
+        <option value="multiplicacion">Multiplicacion</option>
+        <option value="division">División</option>
+      </select>
+
+      <button id="boton">Calcular</button>
+    </form>
+
+    <h3>Resultado: <span id="resultado"></span></h3>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
